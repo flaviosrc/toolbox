@@ -6,9 +6,9 @@
 # $ ./checkserverstatus.sh www.google.com
 
 # explaining:
-# if iterations is 60, sleep_time is 10 seconds and curl_timeout is 2 second
+# if iterations is 60, sleep_time is 10 seconds and curl_timeout is 2 seconds
 # than the script will check server status every 10 seconds for 12 minutes
-# if the server not respode with status 200 at the timeout than exit wth code 1
+# if the server not respode with status 200 at the timeout, than exit with code 1
 
 address=$1
 iterations=60
