@@ -3,7 +3,7 @@
 ## CHECK SERVER STATUS ##
 
 # usage:
-# $ ./checkserverstatus.sh "URL:PORT"
+# $ ./checkserverstatus.sh www.google.com
 
 # explaining:
 # if iterations is 60, sleep_time is 10 seconds and curl_timeout is 2 second
